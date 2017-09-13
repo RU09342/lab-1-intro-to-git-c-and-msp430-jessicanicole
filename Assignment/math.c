@@ -11,35 +11,36 @@ int math(int num1, int num2, char op)
 	case '+':
 	{
 		result = num1 + num2;
-		return result;
+		break;
 	}
 	//Subtraction 
 	case '-':
 	{
 		result = num1 - num2;
-		return result;
+		break;
 	}
 	//Multiplication
 	case '*':
 	{
 		result = num1 * num2;
-		return result;
+		break;
 	}
 	//Division
 	case '/':
 	{
 		result = num1 / num2;
-		return result;
+		break;
 	}
 	//Modulus 
 	case '%':
 	{
 		result = num1 % num2;
-		return result;
+		break;
 	}
 	default:
 	{
 		return 0;
 	}
+	return result;
 	}
 }
